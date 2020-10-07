@@ -1,1 +1,2 @@
-# MyCV-Javascript-master.github.io
+# MyCV-Javascript
+mycv part 2
