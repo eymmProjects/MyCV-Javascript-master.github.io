@@ -2,9 +2,10 @@
   "name": "mycv-javascript-master.github.io",
   "version": "1.0.0",
   "description": "mycv part 2",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/eymmProjects/MyCV-Javascript-master.github.io/issues"
   },
-  "homepage": "https://github.com/eymmProjects/MyCV-Javascript-master.github.io#readme"
+  "homepage": "https://github.com/eymmProjects/MyCV-Javascript-master.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
